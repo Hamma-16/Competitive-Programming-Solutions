@@ -38,14 +38,3 @@ int main()
             cout<<chres<<endl;
             return 0;
         }
-        if(ch[i] == 'a' || ch[i] == 'o' || ch[i] == 'y' || ch[i] == 'e' || ch[i] == 'u' || ch[i] == 'i'){
-            continue;
-        }
-        else
-            chres+=".";
-        chres += ch[i];
-    }
-
-    cout<<chres<<endl;
-    return 0;
-}
